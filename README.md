@@ -29,16 +29,19 @@ Use the following questions to guide your exploration and learning! 🗺
 
 - Look at the `DodgyBankAccount`, this class is not well-encapsulated.
   Can you note down the problems with how the class is designed, and the ways it is being misused?
+  
+  
   -The addreward() function is set to public and is therefore easily accesible to anyone and is being misused
   -Class variables should be set to private so no one is able to make changes to any of the details.
   -The reward amount should be a constant
-- -The account number should be constant
-- 
+  -The account number should be constant
   
 
 - Compare and contrast the `DodgyBankAccount` and the `SecureBankAccount`, how is the `SecureBankAccount` different to 
 the `DodgyBankAccount`? How is it designed to prevent it from being misused? Are there instances of better method names
   for clearer abstraction?
+  
+  
 -This is much better and secure as its attributes and reward function are set to private
   
 ---
@@ -52,6 +55,7 @@ your next challenge is to put your newly minted skills into practice 💪!
 - You may want to think about Encapsulation here. Do the methods follow the Single Responsibility Principle (SRP)? Are the method names suitable?
   Are there any magic numbers / hardcoded numbers in the code that needs to be represented by a constant?
   Are there better ways to write the code?
+  
 - Changes have been made to the code
   
 - As an added challenge, could you write some unit tests to test the class' methods?
